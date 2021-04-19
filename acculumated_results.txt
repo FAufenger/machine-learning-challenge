@@ -15,3 +15,15 @@ MinMax_scalar_SCV_gridSearch
 
 	Grid Params: {'C': 50, 'gamma': 0.0001}
 	Best grid Score: 0.8840364141785344
+
+
+
+standard_scalar_logisticRegression_gridSearch
+
+	Training Data Score: 0.8868968148006866
+	Testing Data Score: 0.8947368421052632
+ 
+	Grid Params: {'C': 50, 'max_iter': 200}
+	Best grid Score: 0.8836536432371069
+
+Random Tree
