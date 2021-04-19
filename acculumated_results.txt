@@ -1,0 +1,17 @@
+standard_scalar_SCV_gridSearch 
+
+	Training Data Score: 0.891474346748045	
+	Testing Data Score: 0.8993135011441648
+
+	Grid Params: {'C': 10, 'gamma': 0.0001}
+	Best grid Score: 0.8884211790218238
+
+
+MinMax_scalar_SCV_gridSearch
+
+	
+	Training Data Score: 0.8472248712569139
+	Testing Data Score: 0.852974828375286
+
+	Grid Params: {'C': 50, 'gamma': 0.0001}
+	Best grid Score: 0.8840364141785344
