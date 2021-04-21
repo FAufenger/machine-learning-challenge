@@ -4,6 +4,23 @@ Over a period of nine years in deep space, the NASA Kepler space telescope has b
 To help process this data, the following models utilize machine learning capable of classifying candidate exoplanets from the raw dataset.
 
 <br>
+
+### Preprocess the Data: 
+
+ * Preprocess the dataset prior to fitting the model.
+ * Perform feature selection and remove unnecessary features.
+ * Use various Scalers to scale the numerical data.
+ * Separate the data into training and testing data.
+
+
+### Tune Model Parameters
+
+ * Use GridSearch to tune model parameters.
+ * Tune and compare different classifiers.
+ 
+ <hr>
+
+<br>
 The best result so far is the standard_scalar_logisticRegression_gridSearch although the other are also quite close to the score. one even 0.0002 away!
 
 <hr>
