@@ -1,29 +1,35 @@
 standard_scalar_SCV_gridSearch 
 
-	Training Data Score: 0.891474346748045	
-	Testing Data Score: 0.8993135011441648
+    Training Data Score: 0.891474346748045	
+    Testing Data Score: 0.8993135011441648
 
-	Grid Params: {'C': 10, 'gamma': 0.0001}
-	Best grid Score: 0.8884211790218238
+    Grid Params: {'C': 10, 'gamma': 0.0001}
+    Best grid Score: 0.8884211790218238
 
 
 MinMax_scalar_SCV_gridSearch
 
-	
-	Training Data Score: 0.8472248712569139
-	Testing Data Score: 0.852974828375286
+    Training Data Score: 0.8472248712569139
+    Testing Data Score: 0.852974828375286
 
-	Grid Params: {'C': 50, 'gamma': 0.0001}
-	Best grid Score: 0.8840364141785344
+    Grid Params: {'C': 50, 'gamma': 0.0001}
+    Best grid Score: 0.8840364141785344
 
 
 
 standard_scalar_logisticRegression_gridSearch
 
-	Training Data Score: 0.8868968148006866
-	Testing Data Score: 0.8947368421052632
+    Training Data Score: 0.8868968148006866
+    Testing Data Score: 0.8947368421052632
  
-	Grid Params: {'C': 50, 'max_iter': 200}
-	Best grid Score: 0.8836536432371069
+    Grid Params: {'C': 50, 'max_iter': 200}
+    Best grid Score: 0.8836536432371069
+
 
 Random Tree
+
+    Training Data Score: 1.0
+    Testing Data Score: 0.8975972540045767
+    
+    Grid Params: {'max_depth': 10, 'min_samples_split': 2}
+    Best grid Score: 0.8834624396917456
