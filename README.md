@@ -21,7 +21,7 @@ To help process this data, the following models utilize machine learning capable
  <hr>
 
 <br>
-The best result so far is the standard_scalar_logisticRegression_gridSearch although the other are also quite close to the score. one even 0.0002 away!
+The best result so far is the Neural Network although the other are also quite close to the score. one even 0.001 away!
 
 <hr>
 
@@ -63,7 +63,36 @@ The best result so far is the standard_scalar_logisticRegression_gridSearch alth
  * Grid Params: {'max_depth': 10, 'min_samples_split': 2}
  * Best grid Score: 0.8834624396917456
 
+<hr>
+
+### HHR
+ * k=19 Test Acc: 0.847
+ * k=19 Test Acc: 0.841
+
+<hr>
+
+### Neural Network
+
+ * 1748/1748 - 0s - loss: 0.2598 - accuracy: 0.8976
+ * Loss: 0.25983195760430133, Accuracy: 0.8975972533226013
+
+ * Model: "sequential_2"
+ 
+   Layer (type)                 Output Shape              Param #   
+ 
+   dense_6 (Dense)              (None, 100)               4100      
+  
+   dense_7 (Dense)              (None, 100)               10100     
+
+   dense_8 (Dense)              (None, 3)                 303       
+   <br>
+   Total params: 14,503
+   Trainable params: 14,503
+   Non-trainable params: 0
+  
+<hr>
+
 <br>
 While these models are close to 90 percent accuracy, I believe that they should be a higher before sending over for NASA to use. 
 <br><br>
-I plan to contunue tuning and trying other models, nural networks as well
+I plan to contunue tuning, trying models with min max scale inplace of standard scalar and trying other models
