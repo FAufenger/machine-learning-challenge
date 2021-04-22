@@ -1,5 +1,4 @@
 standard_scalar_SCV_gridSearch 
-
     Training Data Score: 0.891474346748045	
     Testing Data Score: 0.8993135011441648
 
@@ -8,7 +7,6 @@ standard_scalar_SCV_gridSearch
 
 
 MinMax_scalar_SCV_gridSearch
-
     Training Data Score: 0.8472248712569139
     Testing Data Score: 0.852974828375286
 
@@ -18,7 +16,6 @@ MinMax_scalar_SCV_gridSearch
 
 
 standard_scalar_logisticRegression_gridSearch
-
     Training Data Score: 0.8868968148006866
     Testing Data Score: 0.8947368421052632
  
@@ -27,9 +24,33 @@ standard_scalar_logisticRegression_gridSearch
 
 
 Random Tree
-
     Training Data Score: 1.0
     Testing Data Score: 0.8975972540045767
     
     Grid Params: {'max_depth': 10, 'min_samples_split': 2}
     Best grid Score: 0.8834624396917456
+
+
+KNN model
+    k=19 Test Acc: 0.847
+    k=19 Test Acc: 0.841
+
+
+Neural Network
+    1748/1748 - 0s - loss: 0.2598 - accuracy: 0.8976
+    Loss: 0.25983195760430133, Accuracy: 0.8975972533226013
+
+   Model: "sequential_2"
+   _________________________________________________________________
+   Layer (type)                 Output Shape              Param #   
+   =================================================================
+   dense_6 (Dense)              (None, 100)               4100      
+   _________________________________________________________________
+   dense_7 (Dense)              (None, 100)               10100     
+   _________________________________________________________________
+   dense_8 (Dense)              (None, 3)                 303       
+   =================================================================
+   Total params: 14,503
+   Trainable params: 14,503
+   Non-trainable params: 0
+   _________________________________________________________________
